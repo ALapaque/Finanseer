@@ -1,4 +1,4 @@
 # Finanseer
 Financial Dashboard using MERN stack
 
-[DEMO](https://github.com/ALapaque/Finanseer)
+[DEMO](https://finanseer.amaury-lapaque.io/)
