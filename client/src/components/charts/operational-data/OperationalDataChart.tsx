@@ -1,8 +1,5 @@
 import {
-	Bar,
-	BarChart,
 	CartesianGrid,
-	Legend,
 	Line, LineChart,
 	ResponsiveContainer,
 	Tooltip,
@@ -43,7 +40,7 @@ export default function OperationalDataChart() {
 					top: 25,
 					right: 0,
 					left: -5,
-					bottom: 10,
+					bottom: 25,
 				}}
 				style={{
 					width: '100%',

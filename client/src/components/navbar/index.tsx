@@ -4,9 +4,7 @@ import {useState} from "react";
 import {Typography} from "@mui/material";
 import Link from "@/components/Link";
 
-type Props = {}
-
-export default function Navbar(props: Props) {
+export default function Navbar() {
 	const [selected, setSelected] = useState<false | 'predictions'>(false)
 
 	return (

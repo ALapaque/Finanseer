@@ -2,10 +2,7 @@ import {
 	Bar,
 	BarChart,
 	CartesianGrid,
-	Legend,
-	Line,
 	ResponsiveContainer,
-	Tooltip,
 	XAxis,
 	YAxis
 } from "recharts";
@@ -37,7 +34,7 @@ export default function MonthlyRevenueChart() {
 					top: 25,
 					right: -25,
 					left: -5,
-					bottom: 10,
+					bottom: 25,
 				}}
 				style={{
 					width: '100%',

@@ -8,6 +8,8 @@ import CampainsTargetsChartContainer from "@/components/charts/campains-targets"
 import ProductPricesExpensesChartContainer from "@/components/charts/product-prices-expenses";
 import Card from "@/components/card";
 import ProductsListDataGridContainer from "@/components/data-grid/products-list";
+import RecentOrdersDataGridContainer from "@/components/data-grid/recent-orders";
+import ExpenseBreakdownChartContainer from "@/components/charts/expense-breakdown";
 
 const gridTemplateAreas = {
 	lg: `
@@ -17,10 +19,23 @@ const gridTemplateAreas = {
 	"a b f"
 	"d e f"
 	"d e f"
-	"d h i"
-	"g h i"
-	"g h j"
-	"g h j"
+	"d h h"
+	"g h h"
+	"g h h"
+	"i i i"
+	"i i i"
+	"i i i"
+	"i i i"
+	"i i i"
+	"i i i"
+	"i i i"
+	"i i i"
+	"i i i"
+	"i i i"
+	"i i i"
+	"i i i"
+	"i i i"
+	"i i i"
 `,
 	md: `
 	"a a"
@@ -46,12 +61,6 @@ const gridTemplateAreas = {
 	"i f"
 	"i f"
 	"i f"
-	"j j"
-	"j j"
-	"j j"
-	"j j"
-	"j j"
-	"j j"
 `,
 	sm: `
 	"a"
@@ -62,8 +71,7 @@ const gridTemplateAreas = {
 	"f"
 	"g"
 	"h"
-	"i"
-	"j"`
+	"i"`
 }
 
 const cards: Array<DashboardCardType> = [
@@ -93,6 +101,14 @@ const cards: Array<DashboardCardType> = [
 	},
 	{
 		area: 'g',
+		component: ExpenseBreakdownChartContainer
+	},
+	{
+		area: 'h',
+		component: RecentOrdersDataGridContainer
+	},
+	{
+		area: 'i',
 		component: ProductsListDataGridContainer
 	}
 ]
@@ -116,7 +132,7 @@ export default function Dashboard() {
 			},
 			[theme.breakpoints.down('md')]: {
 				gridTemplateColumns: "1fr",
-				gridTemplateRows: "repeat(10, minmax(min-content, 1fr))",
+				gridTemplateRows: "repeat(9, minmax(min-content, 1fr))",
 				gridTemplateAreas: gridTemplateAreas.sm
 			}
 		}}>
