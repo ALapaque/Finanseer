@@ -9,7 +9,7 @@ type Props = {
 	informationText?: string
 }
 
-export default function ChartHeader({icon, title, subTitle, informationText}: Props) {
+export default function CardHeader({icon, title, subTitle, informationText}: Props) {
 	return (
 		<FlexBetween sx={{
 			color: 'grey.400',

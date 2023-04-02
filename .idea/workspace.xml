@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb38d49b-955a-4df6-81d2-4c5516286918" name="Changes" comment="remove .idea">
+      <change afterPath="$PROJECT_DIR$/client/src/components/data-grid/DataGridContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/data-grid/products-list/ProductsListDataGrid.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/data-grid/products-list/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/DashboardCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/card/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/charts/ChartHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/card/CardHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/charts/campains-targets/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/charts/campains-targets/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/charts/monthly-revenue/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/charts/monthly-revenue/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/charts/operational-data/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/charts/operational-data/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/charts/product-prices-expenses/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/charts/product-prices-expenses/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/charts/profit-revenue/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/charts/profit-revenue/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/charts/revenue-expenses/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/charts/revenue-expenses/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scenes/dashboard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/dashboard/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scenes/navbar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scenes/predictions/Predictions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/predictions/Predictions.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2NrtGXpE5poZEQ7XOQdNJbxJYF1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/amaur/WebstormProjects/Finanseer/client/src/components/charts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "C:\\Users\\amaur\\WebstormProjects\\Finanseer\\client\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amaur\WebstormProjects\Finanseer\client\src\components\charts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\amaur\WebstormProjects\Finanseer\client\src\components\card" />
+      <recent name="C:\Users\amaur\WebstormProjects\Finanseer\client\src\components\data-grid" />
+      <recent name="C:\Users\amaur\WebstormProjects\Finanseer\client\src\components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb38d49b-955a-4df6-81d2-4c5516286918" name="Changes" comment="" />
+      <created>1680433933855</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680433933855</updated>
+      <workItem from="1680433935176" duration="257000" />
+      <workItem from="1680434199531" duration="1426000" />
+    </task>
+    <task id="LOCAL-00001" summary="remove .idea">
+      <created>1680434104452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680434104452</updated>
+    </task>
+    <task id="LOCAL-00002" summary="remove .idea">
+      <created>1680434138407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680434138407</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="remove .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove .idea" />
+  </component>
+</project>

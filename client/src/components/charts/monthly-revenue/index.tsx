@@ -1,10 +1,10 @@
-import ChartHeader from "@/components/charts/ChartHeader";
+import CardHeader from "@/components/card/CardHeader";
 import MonthlyRevenueChart from "@/components/charts/monthly-revenue/MonthlyRevenueChart";
 
 export default function MonthlyRevenueChartContainer() {
 	return (
 		<>
-			<ChartHeader
+			<CardHeader
 				title={'Monthly Revenue'}
 				informationText={'+4%'}
 			/>

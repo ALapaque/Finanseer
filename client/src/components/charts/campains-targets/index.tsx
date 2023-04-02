@@ -1,4 +1,4 @@
-import ChartHeader from "@/components/charts/ChartHeader";
+import CardHeader from "@/components/card/CardHeader";
 import CampainsTargetsChart from "@/components/charts/campains-targets/CampainsTargetsChart";
 import FlexBetween from "@/components/FlexBetween";
 import {Box} from "@mui/material";
@@ -7,7 +7,7 @@ import {Typography} from "@mui/material";
 export default function CampainsTargetsChartContainer() {
 	return (
 		<>
-			<ChartHeader
+			<CardHeader
 				title={'Campaigns and Targets'}
 				informationText={'+4%'}
 			/>

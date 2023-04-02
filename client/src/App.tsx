@@ -3,10 +3,10 @@ import {createTheme} from "@mui/material/styles";
 import {themeSettings} from "@/theme";
 import {Box, CssBaseline, ThemeProvider} from "@mui/material";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Navbar from "@/scenes/navbar";
-import Dashboard from "@/scenes/dashboard";
-import Predictions from "@/scenes/predictions/Predictions";
+import Dashboard from "@/pages/dashboard";
+import Predictions from "@/pages/predictions/Predictions";
 import {useGetKpisQuery} from "@/state/api";
+import Navbar from "@/components/navbar";
 
 export default function App() {
 	const theme = useMemo(() => createTheme(themeSettings), [])

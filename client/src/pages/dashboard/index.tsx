@@ -1,5 +1,4 @@
 import {Box, useTheme} from "@mui/material";
-import DashboardCard from "@/components/DashboardCard";
 import DashboardCardType from "@/types/DashboardCardType";
 import RevenueExpensesChartContainer from "@/components/charts/revenue-expenses";
 import ProfitRevenueChartContainer from "@/components/charts/profit-revenue";
@@ -7,6 +6,8 @@ import MonthlyRevenueChartContainer from "@/components/charts/monthly-revenue";
 import OperationalDataChartContainer from "@/components/charts/operational-data";
 import CampainsTargetsChartContainer from "@/components/charts/campains-targets";
 import ProductPricesExpensesChartContainer from "@/components/charts/product-prices-expenses";
+import Card from "@/components/card";
+import ProductsListDataGridContainer from "@/components/data-grid/products-list";
 
 const gridTemplateAreas = {
 	lg: `
@@ -89,6 +90,10 @@ const cards: Array<DashboardCardType> = [
 	{
 		area: 'f',
 		component: ProductPricesExpensesChartContainer
+	},
+	{
+		area: 'g',
+		component: ProductsListDataGridContainer
 	}
 ]
 
@@ -116,9 +121,9 @@ export default function Dashboard() {
 			}
 		}}>
 			{cards.map(({area, component: Component}: DashboardCardType, index: number) => (
-				<DashboardCard key={index} gridArea={area}>
+				<Card key={index} gridArea={area}>
 					<Component/>
-				</DashboardCard>
+				</Card>
 			))}
 		</Box>
 	)
