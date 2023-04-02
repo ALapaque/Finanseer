@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb38d49b-955a-4df6-81d2-4c5516286918" name="Changes" comment="Finished">
-      <change afterPath="$PROJECT_DIR$/client/src/components/charts/expense-breakdown/ExpenseBreakdownChart.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/charts/expense-breakdown/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/data-grid/recent-orders/RecentOrdersDataGrid.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/data-grid/recent-orders/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/charts/monthly-revenue/MonthlyRevenueChart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/charts/monthly-revenue/MonthlyRevenueChart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/charts/operational-data/OperationalDataChart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/charts/operational-data/OperationalDataChart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/dashboard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/dashboard/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/predictions/Predictions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/predictions/Predictions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/scenes/navbar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/types/DashboardCardType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/types/DashboardCardType.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680433933855</updated>
       <workItem from="1680433935176" duration="257000" />
-      <workItem from="1680434199531" duration="3955000" />
+      <workItem from="1680434199531" duration="4593000" />
     </task>
     <task id="LOCAL-00001" summary="remove .idea">
       <created>1680434104452</created>
@@ -104,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680435702101</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished">
+      <created>1680438325111</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680438325111</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
